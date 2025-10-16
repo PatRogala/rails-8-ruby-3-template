@@ -1,3 +1,11 @@
+PATH
+  remote: vendor/tiptap_rails
+  specs:
+    tiptap_rails (0.1.0)
+      actionpack
+      activestorage
+      rails (>= 6.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -529,6 +537,7 @@ DEPENDENCIES
   stimulus-rails
   strong_migrations
   thruster
+  tiptap_rails!
   turbo-rails
   tzinfo-data
   view_component

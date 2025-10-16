@@ -9,6 +9,18 @@
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.18",
     "@tailwindcss/cli": "^4.1.14",
+    "@tiptap/core": "^3.7.2",
+    "@tiptap/extension-code-block-lowlight": "^3.7.2",
+    "@tiptap/extension-horizontal-rule": "^3.7.2",
+    "@tiptap/extension-image": "^3.7.2",
+    "@tiptap/extension-link": "^3.7.2",
+    "@tiptap/extension-placeholder": "^3.7.2",
+    "@tiptap/extension-task-item": "^3.7.2",
+    "@tiptap/extension-task-list": "^3.7.2",
+    "@tiptap/extension-typography": "^3.7.2",
+    "@tiptap/starter-kit": "^3.7.2",
+    "@tiptap/suggestion": "^3.7.2",
+    "lowlight": "^3.3.0",
     "tailwindcss": "^4.1.14"
   }
 }

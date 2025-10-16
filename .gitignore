@@ -41,3 +41,5 @@
 
 # Rspec spec examples
 spec/examples.txt
+
+/vendor

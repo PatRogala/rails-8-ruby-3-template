@@ -1,0 +1,5 @@
+%div{data: {controller: "tiptap"}
+  = form_with model: User.new do |f|
+    = f.text_field :email
+    = tiptap_editor f, :email
+    = f.submit

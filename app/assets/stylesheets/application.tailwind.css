@@ -4,3 +4,49 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+/* Container */
+.tiptap-wrap { border: 1px solid #e5e7eb; border-radius: 12px; background: #fff; }
+.tiptap-toolbar { display:flex; gap:.5rem; padding:.5rem .75rem; border-bottom:1px solid #eef2f7; background:#fafafa; }
+
+/* Content */
+.tt-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 18px 22px;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+/* Typography like Notion */
+.tt-content h1, .tt-content h2, .tt-content h3 { line-height: 1.3; margin: 1.6rem 0 .6rem; font-weight: 700; }
+.tt-content h1 { font-size: 2rem; }
+.tt-content h2 { font-size: 1.6rem; }
+.tt-content h3 { font-size: 1.3rem; }
+.tt-content p   { margin: .6rem 0; }
+.tt-content ul, .tt-content ol { margin: .6rem 0 .8rem 1.2rem; }
+.tt-content blockquote { border-left: 3px solid #e5e7eb; color:#4b5563; padding-left:.9rem; margin:1rem 0; }
+.tt-content code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background:#f6f7f9; padding:.1rem .3rem; border-radius:6px; }
+.tt-content pre { background:#0f172a; color:#e2e8f0; padding:1rem; border-radius:10px; overflow:auto; }
+
+/* Images */
+.tt-content img { max-width: 100%; height: auto; display:block; margin: 1rem auto; border-radius: 10px; }
+
+/* Task list (To-do) */
+.tt-content .task-list { list-style: none; padding-left: 0; }
+.tt-content .task-list-item { display:flex; align-items:flex-start; gap:.6rem; margin:.4rem 0; }
+.tt-content .task-list-item input[type="checkbox"] { margin-top:.35rem; transform: scale(1.1); }
+
+/* Horizontal rule */
+.tt-content hr { border:0; border-top:1px solid #e5e7eb; margin:1rem 0; }
+
+/* Slash menu */
+.tt-slashmenu {
+  background: #fff; border:1px solid #e5e7eb; border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  min-width: 220px; z-index: 50; padding: .25rem; font-size: 14px;
+}
+.tt-slashmenu.hidden { display:none; }
+.tt-slashmenu ul { list-style:none; margin:0; padding:0; max-height: 260px; overflow:auto; }
+.tt-slashmenu .tt-item { padding:.5rem .6rem; border-radius:8px; cursor:pointer; }
+.tt-slashmenu .tt-item.active, .tt-slashmenu .tt-item:hover { background:#f2f4f7; }
