@@ -3,11 +3,9 @@ alwaysApply: true
 ---
  # Application Overview
 
- Application is a Ruby on Rails 8.0 e-learning platform.
-
  ## Core Technologies
 
- *   **Backend:** Ruby 3.4, Ruby on Rails 8.0
+ *   **Backend:** Ruby 3.4, Ruby on Rails 8.1
  *   **Database:** PostgreSQL
  *   **Authentication:** Devise
  *   **Frontend:**
